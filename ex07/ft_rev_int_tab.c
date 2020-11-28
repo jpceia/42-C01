@@ -6,11 +6,11 @@
 /*   By: jceia <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/28 16:02:09 by jceia             #+#    #+#             */
-/*   Updated: 2020/11/28 16:22:58 by jceia            ###   ########.fr       */
+/*   Updated: 2020/11/28 19:35:17 by jceia            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	df_rev_int_tab(int *tab, int size)
+void	ft_rev_int_tab(int *tab, int size)
 {
 	int i;
 	int x;
