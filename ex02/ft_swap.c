@@ -6,11 +6,9 @@
 /*   By: jceia <jceia@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/26 23:06:19 by jceia             #+#    #+#             */
-/*   Updated: 2020/11/26 23:08:35 by jceia            ###   ########.fr       */
+/*   Updated: 2020/11/30 15:45:52 by jceia            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
 
 void	ft_swap(int *a, int *b)
 {
@@ -19,13 +17,4 @@ void	ft_swap(int *a, int *b)
 	c = *b;
 	*b = *a;
 	*a = c;
-}
-
-int main()
-{
-	int a = 1;
-	int b = 2;
-	printf("%d %d", a, b);
-	ft_swap(&a, &b);
-	printf("%d %d", a, b);
 }
